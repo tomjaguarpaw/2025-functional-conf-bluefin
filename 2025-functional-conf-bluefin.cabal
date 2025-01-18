@@ -1,0 +1,11 @@
+name:                bluefin-examples
+version:             0.0.0.0
+
+build-type:          Simple
+cabal-version:       2.0
+
+library
+  hs-source-dirs:      .
+  exposed-modules:     BluefinExamples
+  build-depends:       base, bluefin ^>= 0.0.14
+  default-language:    GHC2021
